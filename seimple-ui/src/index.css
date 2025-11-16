@@ -1,0 +1,40 @@
+/* Plain CSS UI for SEIMple (no Tailwind) */
+
+/* page */
+:root {
+  --bg: #0f1724;
+  --panel: #0b1220;
+  --muted: #94a3b8;
+  --text: #e6eef6;
+  --accent: #6366f1;
+}
+
+* { box-sizing: border-box; }
+body, html, #root { height: 100%; margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background: var(--bg); color: var(--text); }
+
+.app { min-height: 100%; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.card { background: var(--panel); border-radius: 14px; padding: 18px; box-shadow: 0 8px 24px rgba(0,0,0,0.6); }
+
+.header { display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
+.title { font-size: 20px; font-weight: 600; }
+.subtitle { color: var(--muted); font-size: 13px; }
+
+/* controls */
+.controls { margin-bottom: 12px; }
+.controls-row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.input { background: #071226; border: 1px solid #122033; color: var(--text); padding: 8px 10px; border-radius: 8px; min-width: 180px; }
+.input[type="number"] { width: 90px; }
+.btn { padding: 8px 12px; border-radius: 8px; border: none; cursor: pointer; }
+.btn-primary { background: var(--accent); color: white; }
+.btn-ghost { background: transparent; color: var(--text); border: 1px solid #122033; }
+
+/* table */
+.table-wrap { overflow-x:auto; margin-top: 12px; }
+.table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.table thead th { text-align:left; color: var(--muted); padding-bottom:8px; padding-right: 12px; }
+.table td { padding: 10px 8px; vertical-align: top; color: var(--text); border-top: 1px solid rgba(255,255,255,0.02); }
+.table tbody tr.even { background: rgba(255,255,255,0.01); }
+
+/* footer small */
+.small { color: var(--muted); font-size: 12px; }
