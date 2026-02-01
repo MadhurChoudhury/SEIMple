@@ -73,4 +73,4 @@ Requirements are Python ≥ 3.10 and Node.js ≥ 18
 
 
 ### Screenshot example
-![Example dashboard](Screenshot 2025-11-15 234207.png)
+![Screenshot](./screenshot.png)
