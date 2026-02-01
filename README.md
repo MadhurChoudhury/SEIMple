@@ -72,4 +72,5 @@ Frontend	React + Vite + Recharts
 Requirements are Python ≥ 3.10 and Node.js ≥ 18
 
 
-<img width="1733" height="480" alt="Screenshot 2025-11-15 234207" src="https://github.com/user-attachments/assets/0ce3d513-05b6-4492-9017-06012b7bdd89" />
+### Screenshot example
+![Example dashboard](Screenshot 2025-11-15 234207.png)
